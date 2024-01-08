@@ -1,0 +1,116 @@
+@font-face {
+  font-family: genshin;
+  src: url(./fonts/zh-cn.ttf);
+}
+
+@font-face {
+  font-family: fortnite;
+  src: url(./fonts/BurbankBigCondensed-Bold.otf);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  font-family: genshin;
+  margin: 0%;
+}
+
+.main-header {
+  background-color: rgb(38, 37, 37);
+  color: white;
+  padding: 10px 0;
+}
+
+.dark-mode .main-header {
+  background-color: rgb(38, 37, 37);
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.App {
+  margin: 0;
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.fa-brands {
+  color: rgb(233, 9, 173);
+  font-size: x-large;
+}
+
+.toggle-button img {
+  filter: invert(1);
+}
+
+.App {
+  margin-right: 50px;
+}
+
+.dark-mode {
+  background-color: gray;
+  color: #fff;
+}
+
+.toggle-button {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.avater {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.avater img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.headline {
+  text-align: center;
+  color: black;
+}
+
+.dark-mode .headline {
+  color: white;
+}
+
+.main {
+  text-align: center;
+}
+
+.others {
+  display: inline-block;
+  padding: 15px 200px;
+  background-color: purple;
+  color: white;
+  text-decoration: none;
+  margin-top: 20px;
+  text-align: center;
+  border-radius: 25px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
